@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
-    public class AccountController
+    public class AccountController:BaseApiController
     {
         private readonly DataContext _context;
         public AccountController(DataContext context)
@@ -21,7 +21,6 @@ namespace API.Controllers
         public async Task<ActionResult<AppUser>> Register(RegisterDto registerDto)
         {
             if (await UserExists(registerDto.Username)) return BadRequest("Username is taken");
-
             using var hmac=new HMACSHA512();
             var user= new AppUser
             {
@@ -52,17 +51,6 @@ namespace API.Controllers
             }
             return user;
         }
-
-        private ActionResult<AppUser> Unauthorized(string v)
-        {
-            throw new NotImplementedException();
-        }
-
-        private ActionResult<AppUser> BadRequest(string v)
-        {
-            throw new NotImplementedException();
-        }
-
         private async Task<bool> UserExists(string username)
         {
             return await _context.Users.AnyAsync(x=>x.UserName==username.ToLower());
