@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\user\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\user\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\user\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\user\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\user\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\user\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\user\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\user\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\user\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\user\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,6 +25,7 @@
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

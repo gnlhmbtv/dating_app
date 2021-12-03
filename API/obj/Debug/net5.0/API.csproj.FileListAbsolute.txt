@@ -62,3 +62,7 @@ C:\Users\user\DatingApp\API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\user\DatingApp\API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\Users\user\DatingApp\API\obj\Debug\net5.0\API.RazorAssemblyInfo.cache
 C:\Users\user\DatingApp\API\obj\Debug\net5.0\API.RazorAssemblyInfo.cs
+C:\Users\user\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\user\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\user\DatingApp\API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\user\DatingApp\API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
