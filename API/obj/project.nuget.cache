@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EnshwUaJXwMED2jAS0nNFdS/7ygyVj7MOWeUmjRoI+4YIHBi95QJ51asBSvD5kHYDc/yVuqcbvCFg8tCcQjfUA==",
+  "dgSpecHash": "KXcYmEqVkK9SD2sbSqbc9Yx3dRhLpmYBrlKyQEPpxPY08Cdg0L/gfN8/tSVCBzh2LPNICga3ESRNTFc4t7zxlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\DatingApp\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\user\\DatingApp\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
