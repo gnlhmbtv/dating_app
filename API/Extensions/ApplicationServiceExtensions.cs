@@ -10,7 +10,7 @@ using API.Helpers;
 namespace API.Extensions
 {
     public static class ApplicationServiceExtensions
-    {//asdf
+    {
         public static IServiceCollection AddApplicationServices(this IServiceCollection services, IConfiguration config)
         {
             services.Configure<CloudinarySettings>(config.GetSection("CloudinarySettings"));
