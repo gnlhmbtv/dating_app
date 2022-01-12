@@ -76,3 +76,4 @@ C:\Users\user\DatingApp\api\bin\Debug\net5.0\Microsoft.Extensions.DependencyInje
 C:\Users\user\DatingApp\api\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
 C:\Users\user\DatingApp\api\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\user\DatingApp\api\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\user\DatingApp\api\bin\Debug\net5.0\CloudinaryDotNet.dll
