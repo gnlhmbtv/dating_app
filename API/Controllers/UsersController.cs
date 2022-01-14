@@ -29,21 +29,18 @@ namespace API.Controllers
             _userRepository = userRepository;
         }
         [HttpGet]
-        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<MemberDto>>> GetUsers()
         {
             var users = await _userRepository.GetMembersAsync();
 
             return Ok(users);
         }
-        [AllowAnonymous]
         [HttpGet("{username}", Name = "GetUser")]
         public async Task<ActionResult<MemberDto>> GetUser(string username)
         {
             return await _userRepository.GetMemberAsync(username);
 
         }
-        [AllowAnonymous]
         [HttpPut]
         public async Task<ActionResult> UpdateUser(MemberUpdateDto memberUpdateDto)
         {
@@ -88,7 +85,6 @@ namespace API.Controllers
             return BadRequest("Problem adding photo");
         }
         [HttpPut("set-main-photo/{photoId}")]
-        [AllowAnonymous]
         public async Task<ActionResult> SetMainPhoto(int photoId)
         {
             var user = await _userRepository.GetUserByUsernameAsync(User.GetUserName()); 
@@ -105,5 +101,6 @@ namespace API.Controllers
 
             return BadRequest("Failed to set main photo");
         }
+        
     }
 }
