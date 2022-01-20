@@ -94,7 +94,7 @@ namespace API.SignalR
             }
         }
 
-        private async Task<bool> AddToGroup(HubCallerContext context, string groupName)
+        private async Task<Group> AddToGroup(string groupName)
         {
             var group = await _messageRepository.GetMessageGroup(groupName);
             var connection = new Connection(Context.ConnectionId, Context.User.GetUserName());
@@ -109,9 +109,9 @@ namespace API.SignalR
             return await _messageRepository.SaveAllAsync();
         }
 
-        private async Task RemoveFromMessageGroup(string connectionId)
+        private async Task RemoveFromMessageGroup()
         {
-            var connection = await _messageRepository.GetConnection(connectionId);
+            var connection = await _messageRepository.GetConnection(Context.ConnectionId);
             _messageRepository.RemoveConnection(connection);
             await _messageRepository.SaveAllAsync();
         }
